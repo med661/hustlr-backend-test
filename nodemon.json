@@ -1,0 +1,19 @@
+{
+  "watch": [
+    "api/"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/",
+    "src/",
+    "public/",
+    "build/",
+    "*.test.js",
+    "*.spec.js"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000",
+  "verbose": true
+}
